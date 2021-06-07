@@ -1,0 +1,12 @@
+init:
+first run "chmod +x setup.sh"
+then "source ./setup.sh"
+to run program run:
+python3 Dirty_projectors.py --flags:
+-p path to folder of images (required)
+-i number of iterations
+-d dimension of pictures
+-s type of solver to use
+-is initial state
+-f fitness function
+-sf successor function
